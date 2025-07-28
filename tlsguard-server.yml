@@ -1,0 +1,16 @@
+id: 4c110240-81c5-4872-b9dd-89527305238a
+mtu: 1380
+ipv4:
+  - 198.18.166.188/31
+ipv6:
+  - fe80::8ee4/64
+mode: server
+name: tls0
+threads: 8
+listen-addr: '::'
+listen-port: 443
+certificate:
+  crt: default.crt
+  key: default.key
+device-to-remote-buffer-size: 1024
+remote-to-device-buffer-size: 1024
